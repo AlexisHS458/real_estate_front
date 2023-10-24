@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+	@apply text-5xl font-semibold !important;
+}
+
+h2 {
+	@apply text-4xl  font-semibold !important;
+}
+
+h3 {
+	@apply text-3xl  font-semibold !important;
+}
+
+h4 {
+	@apply text-2xl  font-semibold !important;
+}
+
+h5 {
+	@apply text-xl  font-semibold !important;
+}
+
+h6 {
+	@apply text-lg font-semibold !important;
+}
+
+#root {
+	height: 100vh;
+}
